@@ -2,10 +2,12 @@ import React from "react";
 import Link from "next/link";
 
 import { urlFor } from "../lib/client";
+import Navbar from "./Navbar";
 
 const HeroBanner = ({ HeroBanner }) => {
   return (
     <div className="hero-banner-container">
+      <Navbar />
       <div className="banner-content">
         <p className="beats-solo">{HeroBanner.smallText}</p>
         <h3>{HeroBanner.midText}</h3>
@@ -14,7 +16,9 @@ const HeroBanner = ({ HeroBanner }) => {
           <p>{HeroBanner.desc}</p>
         </div>
         <Link href={`/product/${HeroBanner.product}`}>
-          <button type="button">{HeroBanner.buttonText}</button>
+          <button className="hero-banner-btn" type="button">
+            {HeroBanner.buttonText}
+          </button>
         </Link>
         <img
           className="hero-banner-image"
