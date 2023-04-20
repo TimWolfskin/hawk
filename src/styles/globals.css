@@ -372,7 +372,7 @@ span.text-red {
 }
 
 .footer-container {
-  color: #324d67;
+  color: #fff;
   text-align: center;
   margin-top: 20px;
   padding: 30px 10px;
@@ -382,7 +382,7 @@ span.text-red {
   align-items: center;
   gap: 10px;
   justify-content: center;
-
+  background-color: #00B2A0;
 }
 
 .footer-container .icons {
