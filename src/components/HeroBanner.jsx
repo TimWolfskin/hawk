@@ -9,7 +9,7 @@ const HeroBanner = ({ HeroBanner }) => {
     <div className="hero-banner-container">
       <Navbar />
       <div className="banner-content">
-        <p className="beats-solo">{HeroBanner.smallText}</p>
+        <p className="product-title">{HeroBanner.smallText}</p>
         <h3>{HeroBanner.midText}</h3>
         <h1>{HeroBanner.largeText1}</h1>
         <div className="desc">
